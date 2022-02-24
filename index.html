@@ -1,66 +1,108 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-            <meta charset="UTF-8">
-            <meta http-equiv="X-UA-Compatible" content="IE=edge">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>Booki</title>
-            <link rel="stylesheet" href="style.css">
-            <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;600&display=swap" rel="stylesheet">
-            <script src="https://kit.fontawesome.com/cc29e3da5a.js" crossorigin="anonymous"></script>
+       <meta charset="UTF-8">
+       <meta http-equiv="X-UA-Compatible" content="IE=edge">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Booki</title>
+       <link rel="stylesheet" href="style.css">
+       <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;600&display=swap" rel="stylesheet">
+       <script src="https://kit.fontawesome.com/cc29e3da5a.js" crossorigin="anonymous"></script>
 
 </head>
 <body>
 <header class="head">
-<nav class="nav">
+    <nav class="nav">
     <!---logo---->
-    <div class="logo">
-        <img src ="img/Booki.png" alt="logo Booki">
+        <div class="logo">
+            <img src ="img/Booki.png" alt="logo Booki" class="img_logo">
+        <!--figure-->
         </div>
-    <div>
+             <div class="nav-bar">
     <!--barre de navigation-->
-            <ul class="nav-bar">
-                <li class="item-nav">
-                <a href="#">Hébergements</a></li>
-                <li class="item-nav">
-                <a href="#">Activités</a></li>
-            </ul>
-    </div>
-</nav>
-    </header>
+                 <ul>
+                    <li>
+                        <a href="#">Hébergements</a></li>
+                    <li>
+                        <a href="#">Activités</a></li>
+                </ul>
+            </div>
+    </nav>
+ </header>
 
-<section class="filtre">
+<section>
      <!--titre -->
-    <h1 class="titre">Trouvez votre hébergement pour des vacances de rêve</h1>
-    <p>En plein centre ville ou pleine nature</p>
+     <div>
+        <h1 class="titre">Trouvez votre hébergement pour des vacances de rêve</h1>
+            <p>En plein centre ville ou pleine nature</p>
+        </div>
 
-    <div class="search-bar">
+        <div class="research">
         <!--icone et barre de recherche-->
-        <i class="fa-solid fa-location-dot"></i>
-        <input class="champ" type="text" placeholder="Marseille, France ">
-        <input class="bouton" type="button" value ="Rechercher">
-</div>
-    
-    <div class="icones-rech">
+            <div class="research-icons"><i class="fa-solid fa-location-dot"></i></div>
+               <div><input class="research-bar" type="search" placeholder="Marseille, France "></div>
+                <div><input class="research-button" type="button" value ="Rechercher"></div>
+        </div>
+      
+            <!--filtre-->
+            <div class="menu-filtre">
+                <div class="titre-filtre"><h2>Filtres</h2></div>
+            
+            <div class="filtre-icons">
+                <i class="fa-solid fa-money-bill-1-wave icons"></i>
+                <div class="txt-icons">Economique</div>
+            </div>
+           
+            <div class="filtre-icons">
+                 <i class="fa-solid fa-child icons"></i>
+                <div class="txt-icons">Familial</div>
+            </div>
+           
+            <div class="filtre-icons">
+                <i class="fa-solid fa-heart icons"></i>
+                <div class="txt-icons">Romantique</div>
+            </div>
+           
+            <div class="filtre-icons">
+                <i class="fa-solid fa-dog icons"></i>
+                <div class="txt-icons">Animaux autorisés</div>
+            </div>
+        </div>
 
-    </div>
+        
+        <div class="info">
+            <div class="info-para">
+            <i class="fa-solid fa-circle-info"></i> Plus de 500 logements sont displonible dans cette ville</div>          
+                
+        </div>
 
-    <div class="icone-filtre">
-
-    </div>
-
-    <p></p>
 </section>
-
 
 <!-- carte hebergement & populaire-->
 <section class="heberg">
-
+<!-- titre pour chaque section-->
     <div class="item-heberg">
-    </div>
 
+    </div>
+        <article class="cards"></article>
+
+        <article class="cards"></article>   
+
+        <article class="cards"></article>
+
+        <article class="cards"></article>
+
+        <article class="cards"></article>
+
+        <article class="cards"></article>
 
     <div class="item-pop">
+
+        <article></article>
+
+        <article></article>
+
+        <article></article>
 
     </div>
     
@@ -86,7 +128,7 @@
 
 </section>    
 
-<footer>
+<footer class="foot">
 
 
 

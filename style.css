@@ -10,54 +10,157 @@ a{
     font-style: normal;
 }
 
-header{
-    width: 100%;
-}
+
 
 a:hover{
     text-decoration: none;
-    color: teal;
-    font-weight: bold;
-
-}
-
-a:active{
-   background-color: black;
-}
-
-.nav-bar{
-    display: 100%;
-    flex-direction:row;
-    justify-content: center;
-    margin: auto;
-    text-decoration: none;
-    list-style: none;
-}
-
-.item-nav{
-    text-decoration: none;
-    color: #0065FC;
-    font-weight: bold;
-  
+    color: violet;
+    font-weight: bold; 
     
 }
 
-.champ{
+a:active{
+    background-color: red;
+   
+}
+
+
+.nav{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  top: 0px;
+    
+  
+ 
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    width: 300px;
+}
+
+nav ul li{
+    display: flex;
+    flex-direction: row;
     color: #0065FC;
     font-weight: bold;
+    padding: 10px;
+    
 }
 
-.logo {
-    flex-grow:1;
-    width: 20px;
-    height: 20px;
-    padding-left: 30px;
+nav a{
+    display: block;
+    text-decoration: none
+    
 }
 
-.filtre-titre {
+.logo{
+    padding:10px;   
+
+}
+
+.img_logo{
+    width: 100px;
+    margin: auto;
+}
+
+.search-bar{
+    font-size: 20px;
+}
+
+/*barre de recherche*/
+
+.titre{
+    font-weight: bold;
+}
+
+.research{
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    border-radius: 15px;
+    
+}
+
+.research-icons{
+    height: 50px;
+    width: 40px;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px 0 0 10px;
+    color: black;
+
+    
+}
+
+.research-bar{
+    height: 50px;
+    width: 200px;
+    font-size: 15px;
     color: black;
     font-weight: bold;
-    font-size: 20px;
-    text-align: left;
+    display: flex;
+    justify-content: center;
+    border: none;  
+    border-radius: 0 10px 0 10px;
 }
 
+.research-button{
+    height: 50px;
+    width: 120px;
+    border: none;
+    background-color: #0065FC;
+    display: flex;
+    justify-content: center;
+    color: white;
+    cursor: pointer;
+    border-radius: 0 10px 10px 0;
+}
+
+/*Filtres*/
+
+.menu-filtre{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+.titre-filtre{
+    margin-right: 20px;
+}
+
+.filtre-icons{
+    border: 2px solid black;
+    height: 50px;
+    border-radius: 30px;
+    margin-right: 20px;
+    justify-content: space-between;
+    display: flex;
+      
+}
+
+.icons{
+    border-radius: 50px;
+    height: 50px;
+    width: 50px;
+    color: #0065FC;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+ 
+.txt-icons{
+    display: flex;    
+    justify-content: space-between;
+    padding: 15px;
+    height: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 0 25px 25px 0;   
+}
