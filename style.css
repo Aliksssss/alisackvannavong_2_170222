@@ -115,10 +115,11 @@ nav a{
     border: none;
     background-color: #0065FC;
     display: flex;
-    justify-content: center;
     color: white;
     cursor: pointer;
     border-radius: 0 10px 10px 0;
+    justify-content: center;
+    font-weight: bold;
 }
 
 /*Filtres*/
@@ -148,11 +149,10 @@ nav a{
     height: 50px;
     width: 50px;
     color: #0065FC;
-    background-color: aquamarine;
+    background-color: #deebff;
     display: flex;
     align-items: center;
     justify-content: center;
-    
 }
  
 .txt-icons{
@@ -164,8 +164,26 @@ nav a{
     padding-right: 20px;
     border-radius: 0 25px 25px 0;   
 }
-/* informations*/g
+/* informations*/
 
 .info-para{
     padding-top: 10px;
+    color: black;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.information{
+    color: white;
+    background-color:#0065FC;
+    border-radius: 10px 10px 10px 10px;
+    display:flex;
+    justify-content: center;
+    align-items:center
+}
+
+.txt-info{
+    padding: 10px;
+    
 }
